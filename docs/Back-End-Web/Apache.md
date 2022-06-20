@@ -34,7 +34,7 @@ Pour activer https il faut activer le module ssl
 ```bash
 sudo a2enmod ssl
 ```
-Redémarer apache
+Redémarrer apache
 
 ```bash
 sudo systemctl restart httpd
