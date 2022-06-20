@@ -3,7 +3,7 @@ Documentation sur le serveur web déployé
 
 ## Instalation
 
-En cas de souscis technique il peut etre necessaire de réinstaller httpd avec la commande suivante :
+En cas de soucis technique, il peut etre necessaire de réinstaller httpd avec la commande suivante :
 
 ```sh
 sudo yum install httpd
@@ -34,7 +34,7 @@ Pour activer https il faut activer le module ssl
 ```bash
 sudo a2enmod ssl
 ```
-Redémarer apache
+Redémarrer apache
 
 ```bash
 sudo systemctl restart httpd
